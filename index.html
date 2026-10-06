@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Les Enfants · Propuesta Instagram</title>
+<meta name="description" content="Un mes de contenido de Instagram para Les Enfants Librería Boutique, armado por el bot CM de Tranquera Digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,600;0,6..96,700;1,6..96,500&family=Figtree:wght@400;500;600;700;800&family=Parisienne&display=swap" rel="stylesheet">
+<style>
+:root{--mint:#d8eee3;--mint-2:#c5e5d6;--paper:#fbfaf5;--teal:#0e6361;--gold:#c2a24d;--gold-t:#7d6227;--ink:#14142b;--muted:#5b5b70;--line:rgba(14,99,97,.16);--rose:#f6d3dc;--butter:#f7ecc4;
+  --holo:linear-gradient(90deg,#0e6361 0%,#43b9b8 22%,#7b5cd6 48%,#d24b9a 72%,#c2a24d 100%)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:17px;line-height:1.55;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.lbl{font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h1,h2,h3{font-family:"Bodoni Moda",Georgia,serif;font-weight:700;line-height:1.02;color:var(--teal);letter-spacing:-.01em}
+h1 em,h2 em{font-style:italic;font-weight:500;color:var(--ink)}
+a{color:inherit}
+.holo{height:5px;background:var(--holo);border-radius:3px}
+
+header{padding:28px 0 48px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:52px}
+.top .who{display:flex;align-items:center;gap:12px}
+.top img{width:48px;height:48px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}
+.top .scr{font-family:"Parisienne",cursive;font-size:30px;color:var(--teal);line-height:1}
+.top .lbl{color:var(--gold-t)}
+header h1{font-size:clamp(46px,10vw,104px)}
+.lead{max-width:660px;margin:22px 0 28px;font-size:19px;color:#2f2f45}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:32px}
+.facts div{padding:16px 12px 16px 0}
+.facts b{display:block;font-family:"Bodoni Moda";font-weight:700;font-size:46px;line-height:1;color:var(--teal)}
+.facts span{font-size:14px;color:var(--muted)}
+
+section{padding:56px 0;border-top:1px solid var(--line)}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.sec-h h2{font-size:clamp(38px,7vw,62px)}
+.sec-h p{color:var(--muted);max-width:430px;font-size:15px}
+
+/* hallazgos */
+.found{list-style:none}
+.found li{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:18px 0;border-top:1px solid var(--line)}
+.tag{align-self:start;justify-self:start;padding:4px 9px;border-radius:999px;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.tag.r{background:#111;color:#fff}.tag.o{background:var(--butter);color:#7a5a12}.tag.g{background:var(--mint);color:var(--teal)}
+.found b{display:block;margin-bottom:4px}
+.found span{color:#3d3d52;font-size:15px}
+
+.table{width:100%;border-collapse:collapse;font-size:15px;margin-top:8px}
+.table th,.table td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
+.table th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-t)}
+.table td:nth-child(2),.table td:nth-child(3){font-variant-numeric:tabular-nums;white-space:nowrap}
+.table tr.hit td{background:var(--mint);font-weight:700}
+.tablewrap{overflow-x:auto}
+
+.rhythm{display:grid;grid-template-columns:repeat(3,1fr);border-top:3px solid var(--teal)}
+.rhythm div{padding:18px 16px 18px 0}
+.rhythm b{display:block;font-family:"Bodoni Moda";font-weight:700;font-size:62px;line-height:1;color:var(--teal)}
+.rhythm span{display:block;font-weight:800}
+.rhythm small{display:block;font-size:14px;color:var(--muted);margin-top:4px}
+.goal{margin-top:28px;max-width:720px;font-size:17px;color:#2f2f45}
+
+/* días */
+.day{display:grid;grid-template-columns:120px 1fr;gap:24px;padding:36px 0;border-top:1px solid var(--line)}
+.day:first-of-type{border-top:0;padding-top:0}
+.when b{display:block;font-family:"Bodoni Moda";font-weight:700;font-size:44px;line-height:1;color:var(--teal)}
+.when .lbl{color:var(--gold-t)}
+.when .cd{display:inline-block;margin-top:10px;padding:4px 9px;border-radius:999px;background:var(--mint);color:var(--teal)}
+.pieces{display:flex;flex-direction:column;gap:28px;min-width:0}
+.piece{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:24px;align-items:start}
+.piece .fmt{color:var(--gold-t);margin-bottom:8px}
+.piece h3{font-size:30px;margin-bottom:10px}
+.cap{white-space:pre-line;font-size:15px;color:#2f2f45;background:#fff;border-left:3px solid var(--teal);padding:14px 16px;border-radius:0 10px 10px 0}
+.hand{margin-top:10px;font-size:14px;color:var(--muted)}
+.hand b{color:var(--ink);font-weight:700}
+.media img{border-radius:10px;box-shadow:0 12px 30px rgba(14,99,97,.18)}
+.story-img{max-width:230px}
+.carousel{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;-webkit-overflow-scrolling:touch}
+.carousel img{flex:0 0 86%;max-width:none;width:86%;scroll-snap-align:start}
+.hint{color:var(--muted);margin-top:4px}
+.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory}
+.strip img{flex:0 0 auto;height:300px;width:auto;max-width:none;border-radius:10px;scroll-snap-align:start}
+.strip.hl img{height:150px;border-radius:50%;aspect-ratio:1;object-fit:cover;object-position:center}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr)}
+.step{padding:22px 18px 22px 0;border-top:3px solid var(--teal)}
+.step:nth-child(2){border-color:var(--gold)}.step:nth-child(4){border-color:#d24b9a}
+.step .lbl{color:var(--muted)}
+.step h3{font-size:26px;margin:10px 0 8px}
+.step p{font-size:15px;color:#3d3d52}
+.limits{margin-top:28px;font-size:15px;color:var(--muted)}
+
+footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .holo{margin-bottom:24px}
+
+@media (max-width:760px){
+  .day{grid-template-columns:1fr;gap:16px}
+  .piece{grid-template-columns:1fr}
+  .story-img{max-width:62%}
+  .steps{grid-template-columns:1fr 1fr}
+  .found li{grid-template-columns:1fr;gap:8px}
+  .rhythm div{padding:14px 10px 14px 0}
+  .rhythm b{font-size:46px}
+  .rhythm span{font-size:15px;line-height:1.3}
+  .rhythm small{font-size:12.5px}
+  .strip img{height:240px}
+  .strip.hl img{height:110px}
+}
+@media (max-width:400px){
+  .facts b{font-size:36px}
+  .steps{grid-template-columns:1fr}
+}
+@media print{
+  @page{size:A4;margin:0}
+  html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  body{font-size:14px}
+  .wrap{max-width:none;padding:12mm 12mm 6mm}
+  header{padding:8px 0 24px}
+  .top{margin-bottom:28px}
+  header h1{font-size:64px}
+  section{padding:28px 0}
+  .day{grid-template-columns:1fr;gap:10px;padding:20px 0}
+  .when{break-after:avoid;break-inside:avoid}
+  section + section{break-before:page}
+  .sec-h{break-after:avoid}
+  .piece{grid-template-columns:230px 1fr;gap:18px;break-inside:avoid}
+  .carousel{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;overflow:visible}
+  .carousel img{width:100%;flex:none;max-width:none!important}
+  .piece:has(.carousel){grid-template-columns:1fr}
+  .hint{display:none}
+  .story-img{max-width:140px}
+  .media img:not(.story-img){max-width:230px}
+  .strip{flex-wrap:wrap;overflow:visible}
+  .strip img{height:190px}
+  .strip.hl img{height:90px}
+  .steps,.found li,.rhythm,.table tr{break-inside:avoid}
+  .cap{font-size:13px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="top">
+    <div class="who"><img src="img/logo-badge.webp" alt="Logo de Les Enfants Librería Boutique"><span class="scr">Les Enfants</span></div>
+    <span class="lbl">Propuesta · octubre 2026</span>
+  </div>
+  <h1>Tu Instagram de octubre, <em>hecho por un bot</em></h1>
+  <p class="lead">Del Día de la Madre al sorteo de Filgo. Lo armamos mirando lo que ya publicaron: qué funcionó, qué no, y lo que tiene el local que nadie más tiene. No se publicó nada: es para que veas cómo trabajaría.</p>
+  <div class="holo"></div>
+  <div class="facts">
+    <div><b>21</b><span>piezas listas</span></div>
+    <div><b>4</b><span>semanas planificadas</span></div>
+    <div><b>0</b><span>horas de diseño tuyas</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="sec-h"><h2>Lo que vimos en tu cuenta</h2><p>Revisado el 6/10/2026, como lo ve alguien que entra por primera vez.</p></div>
+  <ul class="found">
+    <li><span class="tag r">Urgente</span><div><b>La bio todavía tiene el link del nombre anterior</b><span>El segundo link lleva a un dominio que ya no existe y asocia la cuenta a la marca vieja. Hay que cambiarlo por librerialesenfants.com.</span></div></li>
+    <li><span class="tag r">Urgente</span><div><b>Dos WhatsApp distintos</b><span>La bio dice 11 6958-9332 y los posteos, 11 6567-5263. El cliente no sabe a cuál escribir.</span></div></li>
+    <li><span class="tag g">Bien</span><div><b>Publican seguido y das la cara</b><span>12 publicaciones en dos semanas. Los videos con vos a cámara son los que más comentarios tienen.</span></div></li>
+    <li><span class="tag o">Contenido</span><div><b>El reel que explotó no vendía nada</b><span>El del Día del Estudiante tuvo 2.953 likes. El promedio del resto es 10. Mostraba algo que le pasa a todos, no un producto.</span></div></li>
+    <li><span class="tag o">Contenido</span><div><b>Las placas de catálogo no funcionan</b><span>Calendarios, agendas y valijas con fotos de fábrica y mucho texto quedaron entre 5 y 9 likes.</span></div></li>
+    <li><span class="tag o">Grilla</span><div><b>Cada placa usa otra letra y otros colores</b><span>Nada se parece al osito ni al sitio. Con plantillas propias, la grilla se reconoce de lejos.</span></div></li>
+    <li><span class="tag g">Bien</span><div><b>Los octágonos de la vidriera</b><span>"EXCESO DE BUENA ONDA", "ALTO NIVEL EN FOTOCOPIAS": un chiste propio que hoy no aparece en Instagram. Lo convertimos en la firma de todas las piezas.</span></div></li>
+  </ul>
+  <div class="tablewrap">
+  <table class="table">
+    <thead><tr><th>Publicación</th><th>Likes</th><th>Coment.</th></tr></thead>
+    <tbody>
+      <tr class="hit"><td>Día del Estudiante (chicos estudiando con mate)</td><td>2.953</td><td>8</td></tr>
+      <tr><td>Sorteo set Filgo</td><td>61</td><td>276</td></tr>
+      <tr><td>Pelota voladora (vos a cámara)</td><td>28</td><td>11</td></tr>
+      <tr><td>Intento de robo (cámara de seguridad)</td><td>18</td><td>10</td></tr>
+      <tr><td>Probamos los marcadores Puffy 3D</td><td>13</td><td>4</td></tr>
+      <tr><td>Calendarios Mooving (placa de catálogo)</td><td>5</td><td>1</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>El plan</h2><p>No es publicar más (ya publican bastante): es cambiar qué se publica. Menos catálogo, más local, más vos, más clientes.</p></div>
+  <div class="rhythm">
+    <div><b>2</b><span>reels por semana</span><small>Uno de la vida en el local y uno de "probamos por vos"</small></div>
+    <div><b>2</b><span>carruseles</span><small>Guías de regalo con precio, listas, novedades</small></div>
+    <div><b>5</b><span>días con historias</span><small>Lo que llegó, encuestas, "te lo separamos"</small></div>
+  </div>
+  <p class="goal"><b>El objetivo no es juntar seguidores.</b> Es que te escriban más para comprar o pasar por el local. El hilo de octubre sale del nombre: <b>"El 18, que elijan los chicos"</b>. Les Enfants quiere decir "los niños", y el Día de la Madre lo contamos desde los hijos que le eligen el regalo a mamá.</p>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Semana 1 · Arranca el Día de la Madre</h2><p>Del miércoles 7 al martes 13 de octubre. Con las imágenes, el texto y lo que tendría que hacer una persona.</p></div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Miércoles</span><b>7/10</b><span class="cd lbl">Posteo + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img src="png/f1.png" alt="Posteo fijado: cuatro formas de llevártelo"></div>
+        <div>
+          <p class="fmt lbl">Posteo fijado · cómo comprar</p>
+          <h3>Cuatro formas de llevártelo</h3>
+          <p class="cap">Para que no tengas que preguntar: así se compra en Les Enfants.
+
+En el local, por DM, por envío a todo el país, con 3 cuotas sin interés (…)</p>
+          <p class="hand">Queda fijado primero en la grilla. Responde lo que más preguntan por DM.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h1.png" alt="Historia: encuesta, ya tenés el regalo para el 18"></div>
+        <div>
+          <p class="fmt lbl">Historia · encuesta</p>
+          <h3>¿Ya tenés el regalo?</h3>
+          <p class="hand">A los que respondan "todavía no", el bot les prepara un mensaje con el carrusel del jueves.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Jueves</span><b>8/10</b><span class="cd lbl">Carrusel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media">
+          <div class="carousel">
+            <img src="png/m1.png" alt="Carrusel: El 18, que elijan los chicos">
+            <img src="png/m2.png" alt="Espejo de cartera de la Selección">
+            <img src="png/m3.png" alt="Candado con clave Blooming Season">
+            <img src="png/m4.png" alt="Botella térmica">
+            <img src="png/m5.png" alt="Fibras Maped Color'Peps pastel">
+            <img src="png/m6.png" alt="Vení con los chicos, elegimos juntos">
+          </div>
+          <p class="hint lbl">Deslizá → 6 placas</p>
+        </div>
+        <div>
+          <p class="fmt lbl">Carrusel · regalos resueltos</p>
+          <h3>El 18, que elijan los chicos</h3>
+          <p class="cap">Juntamos cuatro regalos que un chico puede elegir solo, pagar con sus ahorros y entregar orgulloso (…)
+
+Guardalo para no olvidarte 📌</p>
+          <p class="hand"><b>Antes de publicar:</b> los precios reales de los cuatro regalos, para reemplazar "Precio en DM".</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h3.png" alt="Historia: llegó hoy, Stampers Kiruki"></div>
+        <div>
+          <p class="fmt lbl">Historia · llegó hoy</p>
+          <h3>Te lo separamos</h3>
+          <p class="hand">Plantilla para todos los días: <b>vos sacás la foto</b> con el producto en la mano y el bot arma la historia.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Viernes</span><b>9/10</b><span class="cd lbl">Reel + historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/r1.png" alt="Portada de reel: sirven para la tarjeta de mamá"></div>
+        <div>
+          <p class="fmt lbl">Reel · probamos por vos</p>
+          <h3>¿Sirven para la tarjeta de mamá?</h3>
+          <p class="cap">Probamos las Maped Color'Peps pastel para hacer la tarjeta del Día de la Madre. [Tu veredicto, con tus palabras.]</p>
+          <p class="hand"><b>Vos grabás</b> 30 a 40 segundos haciendo una tarjeta en el mostrador. <b>El bot</b> lo edita con textos y esta portada. Si no pasan la prueba, se dice: eso lo hace creíble.</p>
+        </div>
+      </div>
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h2.png" alt="Historia: faltan 9 días"></div>
+        <div>
+          <p class="fmt lbl">Historia · cuenta regresiva</p>
+          <h3>Faltan 9</h3>
+          <p class="hand">Cada día el bot solo cambia el número del octágono.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Sábado</span><b>10/10</b><span class="cd lbl">Historia</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/h4.png" alt="Historia: para quién es el regalo"></div>
+        <div>
+          <p class="fmt lbl">Historia · caja de preguntas</p>
+          <h3>¿Para quién es el regalo?</h3>
+          <p class="hand">Lo que pregunte la gente se responde el martes, y da ideas reales para el carrusel de la semana 2.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="day">
+    <div class="when"><span class="lbl">Lunes</span><b>12/10</b><span class="cd lbl">Reel</span></div>
+    <div class="pieces">
+      <div class="piece">
+        <div class="media"><img class="story-img" src="png/r2.png" alt="Portada de reel: lo que nos dicen antes del 18"></div>
+        <div>
+          <p class="fmt lbl">Reel · la vida en el local</p>
+          <h3>Lo que nos dicen antes del 18</h3>
+          <p class="cap">Frases reales del mostrador, edición Día de la Madre 😅
+¿Cuál dijiste vos? Etiquetá a tu hermano/a.</p>
+          <p class="hand">Mismo espíritu que el del Día del Estudiante. <b>Vos anotás</b> 4 o 5 frases que escuchás esta semana y filmás planos del local. <b>El bot</b> pone los textos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Semana 2 · El 18</h2><p>Del 14 al 20: regalos por presupuesto, envolviendo regalos, el último día y el saludo del domingo.</p></div>
+  <div class="strip">
+    <img src="png/h5.png" alt="Historia: hoy abrimos hasta las 17">
+    <img src="png/o1.png" alt="Posteo: feliz día, mamás">
+  </div>
+  <p class="hand" style="margin-top:18px">Después: agendas 2027 comparadas, quiénes somos (la familia y los octágonos), Halloween y el <b>sorteo de Filgo del 1/11</b> en vivo desde el local.</p>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Destacadas nuevas</h2><p>Todas iguales, con los colores del osito. Hoy hay 3 y no se parecen entre sí.</p></div>
+  <div class="strip hl">
+    <img src="png/d1.png" alt="Destacada: lo nuevo">
+    <img src="png/d2.png" alt="Destacada: regalos">
+    <img src="png/d3.png" alt="Destacada: listas">
+    <img src="png/d4.png" alt="Destacada: envíos">
+    <img src="png/d5.png" alt="Destacada: reseñas">
+    <img src="png/d6.png" alt="Destacada: cómo llegar">
+  </div>
+</section>
+
+<section>
+  <div class="sec-h"><h2>Cómo funcionaría</h2><p>El bot queda instalado en tu compu, con tu cuenta. Vos no diseñás ni escribís: elegís.</p></div>
+  <div class="steps">
+    <div class="step"><span class="lbl">Vos</span><h3>Mandás material</h3><p>Fotos con el producto en la mano, clips del local, lo que llegó.</p></div>
+    <div class="step"><span class="lbl">El bot</span><h3>Arma la semana</h3><p>Plan, placas, reels editados y textos, con tu voz y tus colores.</p></div>
+    <div class="step"><span class="lbl">Vos</span><h3>Aprobás</h3><p>Desde el celular. Lo que no te gusta, se cambia o se saca.</p></div>
+    <div class="step"><span class="lbl">El bot</span><h3>Publica</h3><p>Posteos, carruseles, reels e historias, a la hora programada.</p></div>
+  </div>
+  <p class="limits">Lo que sigue siendo a mano: los stickers de las historias (encuesta, preguntas, cuenta regresiva), la música de los reels y filmar los clips.</p>
+</section>
+
+<footer>
+  <div class="holo"></div>
+  <p>Propuesta de Tranquera Digital para Les Enfants Librería Boutique. Contenido de muestra: no fue publicado.</p>
+</footer>
+
+</div>
+</body>
+</html>
