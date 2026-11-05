@@ -4,351 +4,347 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Les Enfants · Propuesta Instagram</title>
-<meta name="description" content="Un mes de contenido de Instagram para Les Enfants Librería Boutique, armado por el bot CM de Tranquera Digital.">
+<title>Les Enfants · Redes del 9 al 22 de noviembre</title>
+<meta name="description" content="Lo que se publicaría cada día en el Instagram y TikTok de Les Enfants, del 9 al 22 de noviembre.">
+<link rel="icon" href="img/logo-badge.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,600;0,6..96,700;1,6..96,500&family=Figtree:wght@400;500;600;700;800&family=Parisienne&display=swap" rel="stylesheet">
 <style>
-:root{--mint:#d8eee3;--mint-2:#c5e5d6;--paper:#fbfaf5;--teal:#0e6361;--gold:#c2a24d;--gold-t:#7d6227;--ink:#14142b;--muted:#5b5b70;--line:rgba(14,99,97,.16);--rose:#f6d3dc;--butter:#f7ecc4;
-  --holo:linear-gradient(90deg,#0e6361 0%,#43b9b8 22%,#7b5cd6 48%,#d24b9a 72%,#c2a24d 100%)}
+:root{--mint:#d8eee3;--mint2:#c5e5d6;--teal:#0e6361;--teal-d:#0a4a49;--gold:#c2a24d;--gold-t:#7d6227;--ink:#14142b;--paper:#fbfaf5;--rose:#f6d3dc;--lilac:#e3dbf3;--butter:#f7ecc4;--body:#33334a;
+--holo:linear-gradient(90deg,#0e6361,#43b9b8 22%,#7b5cd6 48%,#d24b9a 72%,#c2a24d);--disp:"Bodoni Moda",Didot,Georgia,serif;--sans:"Figtree",system-ui,sans-serif}
 *{box-sizing:border-box;margin:0;padding:0}
-html{-webkit-text-size-adjust:100%}
-body{background:var(--paper);color:var(--ink);font-family:"Figtree",system-ui,sans-serif;font-size:17px;line-height:1.55;overflow-x:hidden}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--body);font:400 17px/1.55 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:clip}
 img{display:block;max-width:100%;height:auto}
-.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
-.lbl{font-size:12.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
-h1,h2,h3{font-family:"Bodoni Moda",Georgia,serif;font-weight:700;line-height:1.02;color:var(--teal);letter-spacing:-.01em}
+a{color:var(--teal)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.holo{height:6px;background:var(--holo)}
+.eyebrow{font:800 13px/1.3 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--gold-t)}
+h1,h2,h3{font-family:var(--disp);color:var(--teal);font-weight:700;line-height:1.02;letter-spacing:-.01em}
 h1 em,h2 em{font-style:italic;font-weight:500;color:var(--ink)}
-a{color:inherit}
-.holo{height:5px;background:var(--holo);border-radius:3px}
 
-header{padding:28px 0 48px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:52px}
-.top .who{display:flex;align-items:center;gap:12px}
-.top img{width:48px;height:48px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}
-.top .scr{font-family:"Parisienne",cursive;font-size:30px;color:var(--teal);line-height:1}
-.top .lbl{color:var(--gold-t)}
-header h1{font-size:clamp(46px,10vw,104px)}
-.lead{max-width:660px;margin:22px 0 28px;font-size:19px;color:#2f2f45}
-.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:32px}
-.facts div{padding:16px 12px 16px 0}
-.facts b{display:block;font-family:"Bodoni Moda";font-weight:700;font-size:46px;line-height:1;color:var(--teal)}
-.facts span{font-size:14px;color:var(--muted)}
+/* octágono de la vidriera */
+.oct{--s:118px;width:var(--s);height:var(--s);flex:none;background:#111;position:relative;clip-path:polygon(29.3% 0,70.7% 0,100% 29.3%,100% 70.7%,70.7% 100%,29.3% 100%,0 70.7%,0 29.3%);transform:rotate(-7deg);filter:drop-shadow(0 10px 14px rgba(20,20,43,.25))}
+.oct::before{content:"";position:absolute;inset:calc(var(--s)*.045);background:#fff;clip-path:inherit}
+.oct::after{content:"";position:absolute;inset:calc(var(--s)*.065);background:#111;clip-path:inherit}
+.oct span{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:0 14%;color:#fff;font:800 calc(var(--s)*.1)/1.1 var(--sans);text-transform:uppercase}
 
-section{padding:56px 0;border-top:1px solid var(--line)}
-.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:28px;flex-wrap:wrap}
-.sec-h h2{font-size:clamp(38px,7vw,62px)}
-.sec-h p{color:var(--muted);max-width:430px;font-size:15px}
+/* portada */
+.hero{background:var(--mint);padding:28px 0 56px;position:relative}
+.brand{display:flex;align-items:center;gap:14px}
+.brand img{width:58px;height:58px;border-radius:50%;box-shadow:0 0 0 2px var(--gold)}
+.brand b{font:400 36px/1 "Parisienne",cursive;color:var(--teal)}
+.brand small{display:block;font:700 11px/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold-t);margin-top:4px}
+.hero-grid{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end;margin-top:44px}
+.hero h1{font-size:clamp(46px,8.6vw,96px);margin:14px 0 22px}
+.lead{font-size:19px;max-width:620px;color:#2a2a40}
+.lead b{color:var(--teal)}
+.hero .oct{--s:190px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.stats span{background:#fff;border-radius:999px;padding:9px 16px;font:700 14px/1 var(--sans);color:var(--teal)}
+.stats span:nth-child(2){background:var(--butter);color:#7a5a12}.stats span:nth-child(3){background:var(--rose);color:#8a3150}.stats span:nth-child(4){background:var(--lilac);color:#4e3a86}
 
-/* hallazgos */
-.found{list-style:none}
-.found li{display:grid;grid-template-columns:110px 1fr;gap:16px;padding:18px 0;border-top:1px solid var(--line)}
-.tag{align-self:start;justify-self:start;padding:4px 9px;border-radius:999px;font-size:11.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
-.tag.r{background:#111;color:#fff}.tag.o{background:var(--butter);color:#7a5a12}.tag.g{background:var(--mint);color:var(--teal)}
-.found b{display:block;margin-bottom:4px}
-.found span{color:#3d3d52;font-size:15px}
+/* cómo funciona */
+.how{padding:56px 0 20px}
+.how ol{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px;counter-reset:n}
+.how li{background:#fff;border:1px solid #e5eee8;border-radius:22px;padding:22px 22px 24px;counter-increment:n}
+.how li::before{content:counter(n);display:flex;width:44px;height:44px;border-radius:50%;align-items:center;justify-content:center;background:var(--mint2);font:700 24px/1 var(--disp);color:var(--teal);margin-bottom:12px}
+.how li b{display:block;font:800 18px/1.3 var(--sans);color:var(--teal);margin-bottom:4px}
+.how li:nth-child(2)::before{background:var(--butter)}.how li:nth-child(3)::before{background:var(--rose)}
+.hilo{margin:34px 0 0;background:var(--teal);color:#e9f4ef;border-radius:28px;padding:30px 30px 32px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.hilo h2{color:#fff;font-size:clamp(32px,5vw,50px);margin:10px 0 14px}
+.hilo h2 em{color:var(--butter)}
+.hilo .eyebrow{color:var(--butter)}
+.hilo .oct{--s:140px}
+.h2{font-size:clamp(34px,5.4vw,56px);margin-top:10px}
 
-.table{width:100%;border-collapse:collapse;font-size:15px;margin-top:8px}
-.table th,.table td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
-.table th{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-t)}
-.table td:nth-child(2),.table td:nth-child(3){font-variant-numeric:tabular-nums;white-space:nowrap}
-.table tr.hit td{background:var(--mint);font-weight:700}
-.tablewrap{overflow-x:auto}
+/* semanas */
+.semana{padding:60px 0 10px}
+.sem-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;border-bottom:2px solid var(--teal);padding-bottom:18px;margin-bottom:8px}
+.sem-head h2{font-size:clamp(36px,6vw,64px);margin-top:8px}
+.sem-head .oct{--s:104px}
+.dia{display:grid;grid-template-columns:170px 1fr;gap:20px;padding:28px 0;border-bottom:1px solid #dfe9e3}
+.dia h3{font-size:30px;position:sticky;top:12px;align-self:start}
+.extra{display:block;font:600 13px/1.35 var(--sans);color:var(--gold-t);margin-top:8px;letter-spacing:0}
+.pieza{background:#fff;border-radius:24px;padding:20px;box-shadow:0 10px 30px rgba(14,99,97,.07);min-width:0}
+.pieza+.pieza{margin-top:18px}
+.pieza header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.pieza h4{font:800 19px/1.3 var(--sans);color:var(--ink)}
+.tag{font:800 11px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:7px 11px;border-radius:999px;background:var(--mint);color:var(--teal)}
+.k-reel .tag{background:var(--rose);color:#8a3150}.k-carrusel .tag{background:var(--butter);color:#7a5a12}.k-google .tag{background:var(--lilac);color:#4e3a86}
+.gal{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 2px 12px;scrollbar-width:thin;scrollbar-color:var(--mint2) transparent}
+.shot{flex:none;scroll-snap-align:start;border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(20,20,43,.14);background:var(--mint)}
+.shot.feed{width:min(300px,72vw)}.shot.story{width:min(230px,56vw)}.shot.a4{width:min(200px,48vw);background:#fff}
+.gal:not(.multi) .shot.feed{width:min(340px,100%)}
+.hint{font:700 13px/1.3 var(--sans);color:var(--gold-t);margin-top:2px}
+.why,.sticker,.need{margin-top:14px;font-size:16px}
+.why b,.sticker b{color:var(--teal)}
+.need{background:var(--butter);border-radius:14px;padding:12px 14px;color:#4a3a10}
+.need b{color:#7a5a12}
+details{margin-top:14px;border-top:1px solid #edf1ee;padding-top:12px}
+summary{cursor:pointer;font:800 13px/1.4 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--teal);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:" +";color:var(--gold)}details[open] summary::after{content:" –"}
+.guion{list-style:none;margin-top:10px;display:grid;gap:8px}
+.guion li{display:grid;grid-template-columns:76px 1fr;gap:10px;font-size:16px}
+.guion span{font:700 13px/1.6 var(--sans);color:var(--gold-t)}
+.cap{white-space:pre-wrap;font:500 16px/1.55 var(--sans);background:var(--paper);border-radius:14px;padding:14px 16px;margin-top:10px;color:#2a2a40}
+.rest{color:#7a8a83;font-style:italic}
 
-.rhythm{display:grid;grid-template-columns:repeat(3,1fr);border-top:3px solid var(--teal)}
-.rhythm div{padding:18px 16px 18px 0}
-.rhythm b{display:block;font-family:"Bodoni Moda";font-weight:700;font-size:62px;line-height:1;color:var(--teal)}
-.rhythm span{display:block;font-weight:800}
-.rhythm small{display:block;font-size:14px;color:var(--muted);margin-top:4px}
-.goal{margin-top:28px;max-width:720px;font-size:17px;color:#2f2f45}
+/* perfil */
+.perfil{padding:56px 0 10px}
+.perfil ul{margin:18px 0 0 20px;display:grid;gap:8px}
+.perfil .gal{margin-top:20px}
+.perfil .shot.story{width:min(150px,38vw);border-radius:50%;aspect-ratio:1;background:var(--mint)}
+.perfil .shot.story img{width:100%;height:100%;object-fit:cover;object-position:center}
 
-/* días */
-.day{display:grid;grid-template-columns:120px 1fr;gap:24px;padding:36px 0;border-top:1px solid var(--line)}
-.day:first-of-type{border-top:0;padding-top:0}
-.when b{display:block;font-family:"Bodoni Moda";font-weight:700;font-size:44px;line-height:1;color:var(--teal)}
-.when .lbl{color:var(--gold-t)}
-.when .cd{display:inline-block;margin-top:10px;padding:4px 9px;border-radius:999px;background:var(--mint);color:var(--teal)}
-.pieces{display:flex;flex-direction:column;gap:28px;min-width:0}
-.piece{display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:24px;align-items:start}
-.piece .fmt{color:var(--gold-t);margin-bottom:8px}
-.piece h3{font-size:30px;margin-bottom:10px}
-.cap{white-space:pre-line;font-size:15px;color:#2f2f45;background:#fff;border-left:3px solid var(--teal);padding:14px 16px;border-radius:0 10px 10px 0}
-.hand{margin-top:10px;font-size:14px;color:var(--muted)}
-.hand b{color:var(--ink);font-weight:700}
-.media img{border-radius:10px;box-shadow:0 12px 30px rgba(14,99,97,.18)}
-.story-img{max-width:230px}
-.carousel{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;-webkit-overflow-scrolling:touch}
-.carousel img{flex:0 0 86%;max-width:none;width:86%;scroll-snap-align:start}
-.hint{color:var(--muted);margin-top:4px}
-.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px;scroll-snap-type:x mandatory}
-.strip img{flex:0 0 auto;height:300px;width:auto;max-width:none;border-radius:10px;scroll-snap-align:start}
-.strip.hl img{height:150px;border-radius:50%;aspect-ratio:1;object-fit:cover;object-position:center}
-
-.steps{display:grid;grid-template-columns:repeat(4,1fr)}
-.step{padding:22px 18px 22px 0;border-top:3px solid var(--teal)}
-.step:nth-child(2){border-color:var(--gold)}.step:nth-child(4){border-color:#d24b9a}
-.step .lbl{color:var(--muted)}
-.step h3{font-size:26px;margin:10px 0 8px}
-.step p{font-size:15px;color:#3d3d52}
-.limits{margin-top:28px;font-size:15px;color:var(--muted)}
-
-footer{padding:40px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-footer .holo{margin-bottom:24px}
+/* apuestas y cierre */
+.bets{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:22px}
+.bet{border-radius:24px;padding:24px;background:var(--mint)}
+.bet:nth-child(2){background:var(--lilac)}
+.bet h3{font-size:28px;margin:8px 0 10px}
+footer{margin-top:70px;background:var(--teal-d);color:#cfe3dc;padding:36px 0 44px;font-size:15px}
+footer a{color:var(--butter)}
+footer p+p{margin-top:8px}
 
 @media (max-width:760px){
-  .day{grid-template-columns:1fr;gap:16px}
-  .piece{grid-template-columns:1fr}
-  .story-img{max-width:62%}
-  .steps{grid-template-columns:1fr 1fr}
-  .found li{grid-template-columns:1fr;gap:8px}
-  .rhythm div{padding:14px 10px 14px 0}
-  .rhythm b{font-size:46px}
-  .rhythm span{font-size:15px;line-height:1.3}
-  .rhythm small{font-size:12.5px}
-  .strip img{height:240px}
-  .strip.hl img{height:110px}
+  body{font-size:16px}
+  .hero-grid,.hilo{grid-template-columns:1fr}
+  .hero .oct{--s:104px;justify-self:end;margin-top:-6px}
+  .hilo .oct{display:none}
+  .how ol,.bets{grid-template-columns:1fr}
+  .dia{grid-template-columns:1fr;gap:12px}
+  .dia h3{position:static;font-size:28px}
+  .pieza{padding:16px;border-radius:20px}
+  .sem-head .oct{--s:84px}
 }
-@media (max-width:400px){
-  .facts b{font-size:36px}
-  .steps{grid-template-columns:1fr}
-}
-@media print{
-  @page{size:A4;margin:0}
-  html,body{-webkit-print-color-adjust:exact;print-color-adjust:exact}
-  body{font-size:14px}
-  .wrap{max-width:none;padding:12mm 12mm 6mm}
-  header{padding:8px 0 24px}
-  .top{margin-bottom:28px}
-  header h1{font-size:64px}
-  section{padding:28px 0}
-  .day{grid-template-columns:1fr;gap:10px;padding:20px 0}
-  .when{break-after:avoid;break-inside:avoid}
-  section + section{break-before:page}
-  .sec-h{break-after:avoid}
-  .piece{grid-template-columns:230px 1fr;gap:18px;break-inside:avoid}
-  .carousel{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;overflow:visible}
-  .carousel img{width:100%;flex:none;max-width:none!important}
-  .piece:has(.carousel){grid-template-columns:1fr}
-  .hint{display:none}
-  .story-img{max-width:140px}
-  .media img:not(.story-img){max-width:230px}
-  .strip{flex-wrap:wrap;overflow:visible}
-  .strip img{height:190px}
-  .strip.hl img{height:90px}
-  .steps,.found li,.rhythm,.table tr{break-inside:avoid}
-  .cap{font-size:13px}
-}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<div class="wrap">
-
-<header>
-  <div class="top">
-    <div class="who"><img src="img/logo-badge.webp" alt="Logo de Les Enfants Librería Boutique"><span class="scr">Les Enfants</span></div>
-    <span class="lbl">Propuesta · octubre 2026</span>
-  </div>
-  <h1>Tu Instagram de octubre, <em>hecho por un bot</em></h1>
-  <p class="lead">Del Día de la Madre al sorteo de Filgo. Lo armamos mirando lo que ya publicaron: qué funcionó, qué no, y lo que tiene el local que nadie más tiene. No se publicó nada: es para que veas cómo trabajaría.</p>
-  <div class="holo"></div>
-  <div class="facts">
-    <div><b>21</b><span>piezas listas</span></div>
-    <div><b>4</b><span>semanas planificadas</span></div>
-    <div><b>0</b><span>horas de diseño tuyas</span></div>
+<div class="holo"></div>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><img src="img/logo-badge.webp" alt="Logo de Les Enfants" width="58" height="58"><div><b>Les Enfants</b><small>Juncal 1267 · Recoleta</small></div></div>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Instagram, TikTok y Google · 9 al 22 de noviembre</p>
+        <h1>Lo que se publica <em>cada día</em></h1>
+        <p class="lead">Así se vería tu cuenta las próximas dos semanas, pieza por pieza, con el texto y lo que hay que grabar. Es una primera versión: <b>nada se publica sin que lo apruebes</b> y todo se puede cambiar.</p>
+        <div class="stats"><span>5 reels</span><span>4 carruseles</span><span>8 historias</span><span>1 en Google</span></div>
+      </div>
+      <div class="oct" aria-hidden="true"><span>Alto nivel en planificación</span></div>
+    </div>
   </div>
 </header>
 
-<section>
-  <div class="sec-h"><h2>Lo que vimos en tu cuenta</h2><p>Revisado el 6/10/2026, como lo ve alguien que entra por primera vez.</p></div>
-  <ul class="found">
-    <li><span class="tag r">Urgente</span><div><b>La bio todavía tiene el link del nombre anterior</b><span>El segundo link lleva a un dominio que ya no existe y asocia la cuenta a la marca vieja. Hay que cambiarlo por librerialesenfants.com.</span></div></li>
-    <li><span class="tag r">Urgente</span><div><b>Dos WhatsApp distintos</b><span>La bio dice 11 6958-9332 y los posteos, 11 6567-5263. El cliente no sabe a cuál escribir.</span></div></li>
-    <li><span class="tag g">Bien</span><div><b>Publican seguido y das la cara</b><span>12 publicaciones en dos semanas. Los videos con vos a cámara son los que más comentarios tienen.</span></div></li>
-    <li><span class="tag o">Contenido</span><div><b>El reel que explotó no vendía nada</b><span>El del Día del Estudiante tuvo 2.953 likes. El promedio del resto es 10. Mostraba algo que le pasa a todos, no un producto.</span></div></li>
-    <li><span class="tag o">Contenido</span><div><b>Las placas de catálogo no funcionan</b><span>Calendarios, agendas y valijas con fotos de fábrica y mucho texto quedaron entre 5 y 9 likes.</span></div></li>
-    <li><span class="tag o">Grilla</span><div><b>Cada placa usa otra letra y otros colores</b><span>Nada se parece al osito ni al sitio. Con plantillas propias, la grilla se reconoce de lejos.</span></div></li>
-    <li><span class="tag g">Bien</span><div><b>Los octágonos de la vidriera</b><span>"EXCESO DE BUENA ONDA", "ALTO NIVEL EN FOTOCOPIAS": un chiste propio que hoy no aparece en Instagram. Lo convertimos en la firma de todas las piezas.</span></div></li>
-  </ul>
-  <div class="tablewrap">
-  <table class="table">
-    <thead><tr><th>Publicación</th><th>Likes</th><th>Coment.</th></tr></thead>
-    <tbody>
-      <tr class="hit"><td>Día del Estudiante (chicos estudiando con mate)</td><td>2.953</td><td>8</td></tr>
-      <tr><td>Sorteo set Filgo</td><td>61</td><td>276</td></tr>
-      <tr><td>Pelota voladora (vos a cámara)</td><td>28</td><td>11</td></tr>
-      <tr><td>Intento de robo (cámara de seguridad)</td><td>18</td><td>10</td></tr>
-      <tr><td>Probamos los marcadores Puffy 3D</td><td>13</td><td>4</td></tr>
-      <tr><td>Calendarios Mooving (placa de catálogo)</td><td>5</td><td>1</td></tr>
-    </tbody>
-  </table>
-  </div>
-</section>
-
-<section>
-  <div class="sec-h"><h2>El plan</h2><p>No es publicar más (ya publican bastante): es cambiar qué se publica. Menos catálogo, más local, más vos, más clientes.</p></div>
-  <div class="rhythm">
-    <div><b>2</b><span>reels por semana</span><small>Uno de la vida en el local y uno de "probamos por vos"</small></div>
-    <div><b>2</b><span>carruseles</span><small>Guías de regalo con precio, listas, novedades</small></div>
-    <div><b>5</b><span>días con historias</span><small>Lo que llegó, encuestas, "te lo separamos"</small></div>
-  </div>
-  <p class="goal"><b>El objetivo no es juntar seguidores.</b> Es que te escriban más para comprar o pasar por el local. El hilo de octubre sale del nombre: <b>"El 18, que elijan los chicos"</b>. Les Enfants quiere decir "los niños", y el Día de la Madre lo contamos desde los hijos que le eligen el regalo a mamá.</p>
-</section>
-
-<section>
-  <div class="sec-h"><h2>Semana 1 · Arranca el Día de la Madre</h2><p>Del miércoles 7 al martes 13 de octubre. Con las imágenes, el texto y lo que tendría que hacer una persona.</p></div>
-
-  <div class="day">
-    <div class="when"><span class="lbl">Miércoles</span><b>7/10</b><span class="cd lbl">Posteo + historia</span></div>
-    <div class="pieces">
-      <div class="piece">
-        <div class="media"><img src="png/f1.png" alt="Posteo fijado: cuatro formas de llevártelo"></div>
-        <div>
-          <p class="fmt lbl">Posteo fijado · cómo comprar</p>
-          <h3>Cuatro formas de llevártelo</h3>
-          <p class="cap">Para que no tengas que preguntar: así se compra en Les Enfants.
-
-En el local, por DM, por envío a todo el país, con 3 cuotas sin interés (…)</p>
-          <p class="hand">Queda fijado primero en la grilla. Responde lo que más preguntan por DM.</p>
-        </div>
+<main class="wrap">
+  <section class="how">
+    <p class="eyebrow">Cómo funciona</p>
+    <h2 class="h2">Vos mirás, <em>el bot arma</em></h2>
+    <ol>
+      <li><b>Mirás esta página</b>Día por día: qué sale, por qué y qué necesitamos de vos.</li>
+      <li><b>Nos decís qué cambiar</b>Un producto, una frase, un día. Lo ajustamos.</li>
+      <li><b>Se programa todo junto</b>Con tu OK queda programado en Instagram, TikTok y Facebook. Vos solo grabás los videos.</li>
+    </ol>
+    <div class="hilo">
+      <div>
+        <p class="eyebrow">El hilo de la quincena</p>
+        <h2>Mandanos la lista. <em>Te la armamos.</em></h2>
+        <p>Los colegios mandan las listas 2027 a fin de año (lo dice una de tus reseñas de Google). Si en noviembre la gente aprende que Les Enfants arma la lista, en febrero le escribe a Les Enfants. Alrededor van el 20% OFF en agendas, los regalos para la seño y el amigo invisible.</p>
       </div>
-      <div class="piece">
-        <div class="media"><img class="story-img" src="png/h1.png" alt="Historia: encuesta, ya tenés el regalo para el 18"></div>
-        <div>
-          <p class="fmt lbl">Historia · encuesta</p>
-          <h3>¿Ya tenés el regalo?</h3>
-          <p class="hand">A los que respondan "todavía no", el bot les prepara un mensaje con el carrusel del jueves.</p>
-        </div>
-      </div>
+      <div class="oct" aria-hidden="true"><span>Alto nivel en listas</span></div>
     </div>
-  </div>
+  </section>
 
-  <div class="day">
-    <div class="when"><span class="lbl">Jueves</span><b>8/10</b><span class="cd lbl">Carrusel + historia</span></div>
-    <div class="pieces">
-      <div class="piece">
-        <div class="media">
-          <div class="carousel">
-            <img src="png/m1.png" alt="Carrusel: El 18, que elijan los chicos">
-            <img src="png/m2.png" alt="Espejo de cartera de la Selección">
-            <img src="png/m3.png" alt="Candado con clave Blooming Season">
-            <img src="png/m4.png" alt="Botella térmica">
-            <img src="png/m5.png" alt="Fibras Maped Color'Peps pastel">
-            <img src="png/m6.png" alt="Vení con los chicos, elegimos juntos">
-          </div>
-          <p class="hint lbl">Deslizá → 6 placas</p>
-        </div>
-        <div>
-          <p class="fmt lbl">Carrusel · regalos resueltos</p>
-          <h3>El 18, que elijan los chicos</h3>
-          <p class="cap">Juntamos cuatro regalos que un chico puede elegir solo, pagar con sus ahorros y entregar orgulloso (…)
+  <section class="perfil">
+    <p class="eyebrow">Antes de arrancar · el día de la instalación</p>
+    <h2 class="h2">Ordenar <em>el perfil</em></h2>
+    <ul><li>Cambiar el link viejo de la bio por librerialesenfants.com.</li><li>Dejar un solo WhatsApp en todos lados (en los posteos usás el 11 6567-5263).</li><li>Bio nueva: &quot;Librería, arte y juguetería de familia en Recoleta. Juncal 1267 · lun a vie 10–19, sáb 10:30–17. Envíos a todo el país. Mandanos tu lista de útiles.&quot;</li><li>Nombre del perfil: &quot;Les Enfants · Librería Recoleta&quot; (así aparece cuando alguien busca librería en Recoleta).</li><li>Subir las 6 portadas de destacadas y fijar el posteo &quot;Cómo comprar&quot; (ya están hechas, abajo).</li></ul>
+    <div class="gal multi"><a class="shot story" href="quincena/d1.webp" target="_blank" rel="noopener"><img src="quincena/d1.webp" alt="Portada de destacada d1" width="900" height="1600" loading="lazy" decoding="async"></a><a class="shot story" href="quincena/d2.webp" target="_blank" rel="noopener"><img src="quincena/d2.webp" alt="Portada de destacada d2" width="900" height="1600" loading="lazy" decoding="async"></a><a class="shot story" href="quincena/d3.webp" target="_blank" rel="noopener"><img src="quincena/d3.webp" alt="Portada de destacada d3" width="900" height="1600" loading="lazy" decoding="async"></a><a class="shot story" href="quincena/d4.webp" target="_blank" rel="noopener"><img src="quincena/d4.webp" alt="Portada de destacada d4" width="900" height="1600" loading="lazy" decoding="async"></a><a class="shot story" href="quincena/d5.webp" target="_blank" rel="noopener"><img src="quincena/d5.webp" alt="Portada de destacada d5" width="900" height="1600" loading="lazy" decoding="async"></a><a class="shot story" href="quincena/d6.webp" target="_blank" rel="noopener"><img src="quincena/d6.webp" alt="Portada de destacada d6" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+    <div class="gal" style="margin-top:8px"><a class="shot feed" href="quincena/f1.webp" target="_blank" rel="noopener"><img src="quincena/f1.webp" alt="Posteo fijado: cómo comprar" width="900" height="1125" loading="lazy" decoding="async"></a></div>
+  </section>
 
-Guardalo para no olvidarte 📌</p>
-          <p class="hand"><b>Antes de publicar:</b> los precios reales de los cuatro regalos, para reemplazar "Precio en DM".</p>
-        </div>
-      </div>
-      <div class="piece">
-        <div class="media"><img class="story-img" src="png/h3.png" alt="Historia: llegó hoy, Stampers Kiruki"></div>
-        <div>
-          <p class="fmt lbl">Historia · llegó hoy</p>
-          <h3>Te lo separamos</h3>
-          <p class="hand">Plantilla para todos los días: <b>vos sacás la foto</b> con el producto en la mano y el bot arma la historia.</p>
-        </div>
-      </div>
+  <section class="semana"><div class="sem-head"><div><p class="eyebrow">Semana 1 · 9 al 15 de noviembre</p><h2>Agendas 2027 <em>y la seño</em></h2></div><div class="oct" aria-hidden="true"><span>Exceso de agendas</span></div></div><section class="dia"><h3>Lunes 9<span class="extra">Feriado por la visita del Papa</span></h3><article class="pieza k-reel">
+<header><span class="tag">Reel</span><h4>Cosas que nos vienen a pedir en noviembre · #2</h4></header>
+<div class="gal"><a class="shot story" href="quincena/lun09-reel.webp" target="_blank" rel="noopener"><img src="quincena/lun09-reel.webp" alt="Cosas que nos vienen a pedir en noviembre · #2 (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="why"><b>Por qué:</b> Los reels del local son lo que mejor les anduvo (el del Día del Estudiante: 2.953 likes). En un feriado la gente está en casa mirando el celular.</p>
+<details open><summary>Guion</summary><ol class="guion"><li><span>0–2 s</span>Plano de la vidriera. Texto: &quot;Cosas que nos vienen a pedir en noviembre&quot;</li><li><span>2–4 s</span>&quot;¿Tenés la agenda 2027 con stickers?&quot; → mano mostrando la agenda</li><li><span>4–6 s</span>&quot;Busco el squishy que parece una hamburguesa&quot; → el squishy en la mano</li><li><span>6–8 s</span>&quot;¿Tenés los marcadores de 168?&quot; → abrís la valija</li><li><span>8–10 s</span>&quot;Algo para la seño que no sea una taza&quot; → un regalo</li><li><span>10–12 s</span>&quot;La lista me llegó en una foto borrosa&quot; → &quot;Mandala igual&quot;</li><li><span>12–14 s</span>Cierre: &quot;Sí, lo tenemos.&quot; y el octágono. Juncal 1267</li></ol></details>
+<details><summary>Texto del posteo</summary><pre class="cap">Seis cosas que nos pidieron esta semana. La del squishy de hamburguesa ya es un clásico.
+
+Si buscás algo y no sabés si lo tenemos, escribinos antes de venir: 11 6567-5263.
+Juncal 1267, Recoleta.
+
+#LesEnfants #LibreríaRecoleta #Recoleta #Agendas2027</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> 6 clips de 3 segundos con cada producto en la mano. Las frases las cambiás por las que de verdad te dicen.</p>
+</article>
+<article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Horario del feriado</h4></header>
+<div class="gal"><a class="shot story" href="quincena/lun09-historia.webp" target="_blank" rel="noopener"><img src="quincena/lun09-historia.webp" alt="Horario del feriado (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Sin sticker. Si abrís, poné el horario real; si no, &quot;Hoy cerramos, mañana te esperamos&quot;.</p>
+<p class="need"><b>A confirmar:</b> Confirmar si abrís el 9 y el 10 (los dos son feriado en CABA).</p>
+</article></section>
+<section class="dia"><h3>Martes 10<span class="extra">Feriado en CABA</span></h3><article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Encuesta: ¿ya te mandaron la lista 2027?</h4></header>
+<div class="gal"><a class="shot story" href="quincena/mar10-historia.webp" target="_blank" rel="noopener"><img src="quincena/mar10-historia.webp" alt="Encuesta: ¿ya te mandaron la lista 2027? (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Encuesta: &quot;Sí, ya llegó&quot; / &quot;Todavía no&quot;. A los que contestan &quot;sí&quot; les escribís por privado: &quot;Mandámela y te la armo&quot;.</p>
+</article></section>
+<section class="dia"><h3>Miércoles 11</h3><article class="pieza k-carrusel">
+<header><span class="tag">Carrusel</span><h4>Elegí tu agenda 2027 (20% OFF todo noviembre)</h4></header>
+<div class="gal multi"><a class="shot feed" href="quincena/mie11-c1.webp" target="_blank" rel="noopener"><img src="quincena/mie11-c1.webp" alt="Elegí tu agenda 2027 (20% OFF todo noviembre) (1/6)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie11-c2.webp" target="_blank" rel="noopener"><img src="quincena/mie11-c2.webp" alt="Elegí tu agenda 2027 (20% OFF todo noviembre) (2/6)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie11-c3.webp" target="_blank" rel="noopener"><img src="quincena/mie11-c3.webp" alt="Elegí tu agenda 2027 (20% OFF todo noviembre) (3/6)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie11-c4.webp" target="_blank" rel="noopener"><img src="quincena/mie11-c4.webp" alt="Elegí tu agenda 2027 (20% OFF todo noviembre) (4/6)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie11-c5.webp" target="_blank" rel="noopener"><img src="quincena/mie11-c5.webp" alt="Elegí tu agenda 2027 (20% OFF todo noviembre) (5/6)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie11-c6.webp" target="_blank" rel="noopener"><img src="quincena/mie11-c6.webp" alt="Elegí tu agenda 2027 (20% OFF todo noviembre) (6/6)" width="900" height="1125" loading="lazy" decoding="async"></a></div>
+<p class="hint">Deslizá para ver todas las placas →</p>
+<p class="why"><b>Por qué:</b> Usa el descuento que ya tenés en agendas y calendarios. Un carrusel que ayuda a elegir se guarda, y lo guardado se muestra a más gente.</p>
+<details><summary>Texto del posteo</summary><pre class="cap">Diaria o semanal, chica o grande, para la cartera o para la mochila del cole. Cuatro preguntas y ya sabés cuál es la tuya.
+
+Todo noviembre: 20% OFF en agendas y calendarios de escritorio y de pared.
+Juncal 1267 · WhatsApp 11 6567-5263
+
+#LesEnfants #LibreríaRecoleta #Recoleta #Agendas2027 #Organización</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Nada: las placas ya están. Si querés, cambiamos la foto de tapa por una de tus agendas abiertas.</p>
+</article></section>
+<section class="dia"><h3>Jueves 12</h3><article class="pieza k-reel">
+<header><span class="tag">Reel</span><h4>¿Vale la pena? #1 · La valija de 60 marcadores AE</h4></header>
+<div class="gal"><a class="shot story" href="quincena/jue12-reel.webp" target="_blank" rel="noopener"><img src="quincena/jue12-reel.webp" alt="¿Vale la pena? #1 · La valija de 60 marcadores AE (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="why"><b>Por qué:</b> Ya hicieron &quot;Pusimos a prueba los marcadores al alcohol&quot;. Lo convertimos en serie fija: vos probás algo y decís la verdad. Eso genera confianza y comentarios.</p>
+<details open><summary>Guion</summary><ol class="guion"><li><span>0–3 s</span>Vos a cámara con la valija: &quot;¿60 marcadores? ¿Alguien los usa todos?&quot;</li><li><span>3–10 s</span>Abrís la valija, se ven los colores. Probás 3 en una hoja: punta fina y punta gruesa</li><li><span>10–20 s</span>El veredicto honesto: para quién sí y para quién no (por ejemplo: &quot;si dibujás todos los días, sí; para el cole, con la de 24 alcanza&quot;)</li><li><span>20–25 s</span>&quot;Hay de 24, 48, 60 y 168. Preguntanos cuál te conviene.&quot;</li></ol></details>
+<details><summary>Texto del posteo</summary><pre class="cap">Probamos la valija de 60 marcadores AE. Spoiler: no es para todos, y está bien.
+
+Hay de 24, 48, 60 y 168. Contanos para qué los querés y te decimos cuál.
+WhatsApp 11 6567-5263
+
+#LesEnfants #LibreríaRecoleta #Recoleta #MarcadoresAE #ValeLaPena</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Vos hablando a cámara, 1 minuto. Lo editamos nosotros.</p>
+</article>
+<article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Reseña de Google sobre las listas</h4></header>
+<div class="gal"><a class="shot story" href="quincena/jue12-historia.webp" target="_blank" rel="noopener"><img src="quincena/jue12-historia.webp" alt="Reseña de Google sobre las listas (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Link a tu WhatsApp con el texto &quot;Mandanos tu lista&quot;. La reseña es real (Cristina Morandi, Google).</p>
+</article></section>
+<section class="dia"><h3>Viernes 13</h3><article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Llegó: Nee Doh Nice Cube</h4></header>
+<div class="gal"><a class="shot story" href="quincena/vie13-historia.webp" target="_blank" rel="noopener"><img src="quincena/vie13-historia.webp" alt="Llegó: Nee Doh Nice Cube (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Caja de preguntas: &quot;¿Te lo separamos?&quot;. Mejor todavía si subís un video tuyo apretándolo.</p>
+</article></section>
+<section class="dia"><h3>Sábado 14</h3><article class="pieza k-carrusel">
+<header><span class="tag">Carrusel</span><h4>Cinco regalos para la seño</h4></header>
+<div class="gal multi"><a class="shot feed" href="quincena/sab14-c1.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c1.webp" alt="Cinco regalos para la seño (1/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab14-c2.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c2.webp" alt="Cinco regalos para la seño (2/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab14-c3.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c3.webp" alt="Cinco regalos para la seño (3/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab14-c4.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c4.webp" alt="Cinco regalos para la seño (4/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab14-c5.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c5.webp" alt="Cinco regalos para la seño (5/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab14-c6.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c6.webp" alt="Cinco regalos para la seño (6/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab14-c7.webp" target="_blank" rel="noopener"><img src="quincena/sab14-c7.webp" alt="Cinco regalos para la seño (7/7)" width="900" height="1125" loading="lazy" decoding="async"></a></div>
+<p class="hint">Deslizá para ver todas las placas →</p>
+<p class="why"><b>Por qué:</b> Faltan tres semanas para que terminen las clases. Lo publicamos ahora para que lo guarden y vuelvan.</p>
+<details><summary>Texto del posteo</summary><pre class="cap">Cinco regalos para la seño, que se usan en el aula y en casa. Del set de Hello Kitty para la de jardín a la lapicera de la Selección para la de educación física.
+
+Guardalo para diciembre. Los precios te los pasamos por mensaje: 11 6567-5263.
+
+#LesEnfants #LibreríaRecoleta #Recoleta #RegalosParaLaSeño #FinDeClases</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Confirmar que tenés los 5 productos y pasarnos los precios, así ponemos el precio en cada placa (con precio se guarda mucho más).</p>
+</article>
+<article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Hoy abrimos hasta las 17</h4></header>
+<div class="gal"><a class="shot story" href="quincena/sab14-historia.webp" target="_blank" rel="noopener"><img src="quincena/sab14-historia.webp" alt="Hoy abrimos hasta las 17 (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Sin sticker. Abajo podés sumar una foto de lo más vendido de la semana.</p>
+<p class="need"><b>A confirmar:</b> Confirmar el horario de los sábados (en Google figura 10:30 a 17).</p>
+</article></section></section>
+  <section class="semana"><div class="sem-head"><div><p class="eyebrow">Semana 2 · 16 al 22 de noviembre</p><h2>Mandanos <em>la lista</em></h2></div><div class="oct" aria-hidden="true"><span>Alto nivel en listas</span></div></div><section class="dia"><h3>Lunes 16</h3><article class="pieza k-reel">
+<header><span class="tag">Reel</span><h4>Del mostrador a tu casa</h4></header>
+<div class="gal"><a class="shot story" href="quincena/lun16-reel.webp" target="_blank" rel="noopener"><img src="quincena/lun16-reel.webp" alt="Del mostrador a tu casa (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="why"><b>Por qué:</b> Muestra algo que mucha gente no sabe: que armás pedidos y los mandás a todo el país. Sin hablar, solo imágenes y música.</p>
+<details open><summary>Guion</summary><ol class="guion"><li><span>0–2 s</span>La lista en la pantalla del celular, sobre el mostrador. Texto: &quot;Nos mandaron esta lista desde [provincia]&quot;</li><li><span>2–10 s</span>Tus manos sacando cada cosa de los estantes, cortes de 1 segundo</li><li><span>10–13 s</span>Todo junto sobre el mostrador</li><li><span>13–15 s</span>La bolsa cerrada. Texto: &quot;Mandanos la tuya. Te la armamos.&quot;</li></ol></details>
+<details><summary>Texto del posteo</summary><pre class="cap">Una lista que llegó por WhatsApp, armada ítem por ítem y lista para viajar.
+
+Mandamos a todo el país. Mandanos tu lista y te decimos qué hay y cuánto sale: 11 6567-5263.
+
+#LesEnfants #LibreríaRecoleta #Recoleta #EnvíosATodoElPaís</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Filmá el próximo pedido que armes, de principio a fin, en vertical. Sin nombres ni direcciones del cliente.</p>
+</article></section>
+<section class="dia"><h3>Martes 17</h3><article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Detrás del mostrador: armando un pedido</h4></header>
+<div class="gal"><a class="shot story" href="quincena/mar17-historia.webp" target="_blank" rel="noopener"><img src="quincena/mar17-historia.webp" alt="Detrás del mostrador: armando un pedido (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Tu video de 10 segundos. Encima, el sticker de reacción con emoji (😍).</p>
+<p class="need"><b>A confirmar:</b> El destino (&quot;para Córdoba&quot;) lo cambiamos por el real.</p>
+</article>
+<article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Lista de difusión &quot;Novedades Les Enfants&quot;</h4></header>
+<div class="gal"><a class="shot story" href="quincena/mar17-difusion.webp" target="_blank" rel="noopener"><img src="quincena/mar17-difusion.webp" alt="Lista de difusión &quot;Novedades Les Enfants&quot; (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Link a tu WhatsApp con el texto &quot;Quiero sumarme&quot;. Los que escriben van a una lista de difusión.</p>
+<p class="need"><b>A confirmar:</b> Idea grande de la quincena. En febrero, con las listas, es el canal que más vende.</p>
+</article></section>
+<section class="dia"><h3>Miércoles 18</h3><article class="pieza k-carrusel">
+<header><span class="tag">Carrusel</span><h4>Mandanos la lista. Te la armamos.</h4></header>
+<div class="gal multi"><a class="shot feed" href="quincena/mie18-c1.webp" target="_blank" rel="noopener"><img src="quincena/mie18-c1.webp" alt="Mandanos la lista. Te la armamos. (1/5)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie18-c2.webp" target="_blank" rel="noopener"><img src="quincena/mie18-c2.webp" alt="Mandanos la lista. Te la armamos. (2/5)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie18-c3.webp" target="_blank" rel="noopener"><img src="quincena/mie18-c3.webp" alt="Mandanos la lista. Te la armamos. (3/5)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie18-c4.webp" target="_blank" rel="noopener"><img src="quincena/mie18-c4.webp" alt="Mandanos la lista. Te la armamos. (4/5)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/mie18-c5.webp" target="_blank" rel="noopener"><img src="quincena/mie18-c5.webp" alt="Mandanos la lista. Te la armamos. (5/5)" width="900" height="1125" loading="lazy" decoding="async"></a></div>
+<p class="hint">Deslizá para ver todas las placas →</p>
+<p class="why"><b>Por qué:</b> Es el hilo de toda la quincena. Los colegios mandan las listas 2027 a fin de año: si en noviembre la gente aprende que vos las armás, en febrero te escriben a vos. Queda fijado en el perfil.</p>
+<details><summary>Texto del posteo</summary><pre class="cap">Sacale una foto a la lista del cole y mandala por WhatsApp. Te decimos qué tenemos, cuánto sale y te la dejamos armada para retirar en Juncal 1267, o te la mandamos.
+
+Guardalo para cuando te llegue la lista 2027.
+WhatsApp 11 6567-5263
+
+#LesEnfants #LibreríaRecoleta #Recoleta #ListaDeÚtiles #ÚtilesEscolares</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Confirmar que armás listas, con cuánta anticipación y cómo se paga.</p>
+</article>
+<article class="pieza k-reel">
+<header><span class="tag">Reel</span><h4>Prueba nueva: abrimos la caja nueva (TikTok primero)</h4></header>
+<div class="gal"><a class="shot story" href="quincena/mie18-tiktok.webp" target="_blank" rel="noopener"><img src="quincena/mie18-tiktok.webp" alt="Prueba nueva: abrimos la caja nueva (TikTok primero) (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="why"><b>Por qué:</b> Una prueba: en TikTok funcionan mucho los videos de abrir cajas con el sonido real. Si anda, se repite.</p>
+<details open><summary>Guion</summary><ol class="guion"><li><span>0–2 s</span>Cutter abriendo la caja, de cerca. Texto: &quot;Abrimos la caja nueva (subí el volumen)&quot;</li><li><span>2–20 s</span>Sacás los productos uno por uno, filmado desde arriba. Sin hablar y sin música</li><li><span>20–25 s</span>Todo ordenado sobre el mostrador</li></ol></details>
+<details><summary>Texto del posteo</summary><pre class="cap">Llegó la caja. La abrimos con vos.
+
+Juncal 1267, Recoleta.
+#LesEnfants #Unboxing #Papelería</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> La próxima caja que llegue: filmala desde arriba, con el sonido del local.</p>
+</article></section>
+<section class="dia"><h3>Jueves 19</h3><article class="pieza k-reel">
+<header><span class="tag">Reel</span><h4>El octágono nuevo de la vidriera</h4></header>
+<div class="gal multi"><a class="shot story" href="quincena/jue19-reel.webp" target="_blank" rel="noopener"><img src="quincena/jue19-reel.webp" alt="El octágono nuevo de la vidriera (1/2)" width="900" height="1600" loading="lazy" decoding="async"></a><a class="shot a4" href="quincena/jue19-cartel.webp" target="_blank" rel="noopener"><img src="quincena/jue19-cartel.webp" alt="El octágono nuevo de la vidriera (2/2)" width="900" height="1273" loading="lazy" decoding="async"></a></div>
+<p class="why"><b>Por qué:</b> Los carteles de la vidriera son lo que más distingue al local. Contar quién los inventa le pone cara y humor a la cuenta.</p>
+<details open><summary>Guion</summary><ol class="guion"><li><span>0–3 s</span>Vidriera desde la vereda. Texto: &quot;Cartel nuevo&quot;</li><li><span>3–7 s</span>Pegás el octágono &quot;ALTO NIVEL EN LISTAS DE ÚTILES&quot;</li><li><span>7–12 s</span>Vos o quien los inventa, en una frase: de dónde salieron los octágonos</li></ol></details>
+<details><summary>Texto del posteo</summary><pre class="cap">Cartel nuevo en la vidriera. Ya saben a quién mandarle la lista.
+
+¿Cuál fue tu octágono favorito? Contanos.
+
+#LesEnfants #LibreríaRecoleta #Recoleta #Vidriera</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Imprimir el cartel (la segunda imagen, en A4), pegarlo y grabar 10 segundos.</p>
+</article></section>
+<section class="dia"><h3>Viernes 20<span class="extra">Día de la Soberanía (el feriado pasa al lunes 23)</span></h3><article class="pieza k-historia">
+<header><span class="tag">Historia</span><h4>Fin de semana largo</h4></header>
+<div class="gal"><a class="shot story" href="quincena/vie20-historia.webp" target="_blank" rel="noopener"><img src="quincena/vie20-historia.webp" alt="Fin de semana largo (1/1)" width="900" height="1600" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Sin sticker. Cuenta regresiva opcional al sábado.</p>
+<p class="need"><b>A confirmar:</b> Confirmar si el lunes 23 cerrás.</p>
+</article></section>
+<section class="dia"><h3>Sábado 21</h3><article class="pieza k-carrusel">
+<header><span class="tag">Carrusel</span><h4>Amigo invisible: cinco ideas que no fallan</h4></header>
+<div class="gal multi"><a class="shot feed" href="quincena/sab21-c1.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c1.webp" alt="Amigo invisible: cinco ideas que no fallan (1/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab21-c2.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c2.webp" alt="Amigo invisible: cinco ideas que no fallan (2/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab21-c3.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c3.webp" alt="Amigo invisible: cinco ideas que no fallan (3/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab21-c4.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c4.webp" alt="Amigo invisible: cinco ideas que no fallan (4/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab21-c5.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c5.webp" alt="Amigo invisible: cinco ideas que no fallan (5/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab21-c6.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c6.webp" alt="Amigo invisible: cinco ideas que no fallan (6/7)" width="900" height="1125" loading="lazy" decoding="async"></a><a class="shot feed" href="quincena/sab21-c7.webp" target="_blank" rel="noopener"><img src="quincena/sab21-c7.webp" alt="Amigo invisible: cinco ideas que no fallan (7/7)" width="900" height="1125" loading="lazy" decoding="async"></a></div>
+<p class="hint">Deslizá para ver todas las placas →</p>
+<p class="why"><b>Por qué:</b> Diciembre es temporada de amigo invisible en colegios y oficinas. Con productos que ya tenés.</p>
+<details><summary>Texto del posteo</summary><pre class="cap">Cinco ideas para el amigo invisible del cole o de la oficina: del Nee Doh para el estresado a los stampers para la que decora todo.
+
+Decinos cuánto querés gastar y te armamos tres opciones: 11 6567-5263.
+
+#LesEnfants #LibreríaRecoleta #Recoleta #AmigoInvisible</pre></details>
+<p class="need"><b>Lo que necesitamos de vos:</b> Pasarnos los precios para ponerlos en las placas.</p>
+</article>
+<article class="pieza k-google">
+<header><span class="tag">Google</span><h4>Publicación en Google Maps</h4></header>
+<div class="gal"><a class="shot feed" href="quincena/mie18-c1.webp" target="_blank" rel="noopener"><img src="quincena/mie18-c1.webp" alt="Publicación en Google Maps (1/1)" width="900" height="1125" loading="lazy" decoding="async"></a></div>
+<p class="sticker"><b>En la app:</b> Se publica en tu ficha de Google la tapa de &quot;Mandanos la lista&quot;, con el botón &quot;Más información&quot; al WhatsApp.</p>
+<p class="need"><b>A confirmar:</b> La gente que busca &quot;librería Recoleta&quot; en Google lo ve.</p>
+</article></section>
+<section class="dia"><h3>Domingo 22<span class="extra">Descanso</span></h3><p class="rest">Sin publicaciones. Las historias de la semana se repiten solas en las destacadas.</p></section></section>
+
+  <section class="semana">
+    <p class="eyebrow">Las dos apuestas</p>
+    <h2 class="h2">Lo que <em>probamos</em> esta quincena</h2>
+    <div class="bets">
+      <div class="bet"><p class="eyebrow">Idea grande</p><h3>Novedades por WhatsApp</h3><p>Una lista de difusión a la que se anota quien quiere (historia con link + cartelito en el mostrador). Un mensaje por semana, como mucho. En febrero, con las listas, es el canal que más vende.</p></div>
+      <div class="bet"><p class="eyebrow">Prueba nueva</p><h3>La caja nueva, con sonido real</h3><p>Abrir una caja de mercadería sin música ni voz, solo el sonido. Sale primero en TikTok. Si anda, se vuelve una serie.</p></div>
     </div>
-  </div>
-
-  <div class="day">
-    <div class="when"><span class="lbl">Viernes</span><b>9/10</b><span class="cd lbl">Reel + historia</span></div>
-    <div class="pieces">
-      <div class="piece">
-        <div class="media"><img class="story-img" src="png/r1.png" alt="Portada de reel: sirven para la tarjeta de mamá"></div>
-        <div>
-          <p class="fmt lbl">Reel · probamos por vos</p>
-          <h3>¿Sirven para la tarjeta de mamá?</h3>
-          <p class="cap">Probamos las Maped Color'Peps pastel para hacer la tarjeta del Día de la Madre. [Tu veredicto, con tus palabras.]</p>
-          <p class="hand"><b>Vos grabás</b> 30 a 40 segundos haciendo una tarjeta en el mostrador. <b>El bot</b> lo edita con textos y esta portada. Si no pasan la prueba, se dice: eso lo hace creíble.</p>
-        </div>
-      </div>
-      <div class="piece">
-        <div class="media"><img class="story-img" src="png/h2.png" alt="Historia: faltan 9 días"></div>
-        <div>
-          <p class="fmt lbl">Historia · cuenta regresiva</p>
-          <h3>Faltan 9</h3>
-          <p class="hand">Cada día el bot solo cambia el número del octágono.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="day">
-    <div class="when"><span class="lbl">Sábado</span><b>10/10</b><span class="cd lbl">Historia</span></div>
-    <div class="pieces">
-      <div class="piece">
-        <div class="media"><img class="story-img" src="png/h4.png" alt="Historia: para quién es el regalo"></div>
-        <div>
-          <p class="fmt lbl">Historia · caja de preguntas</p>
-          <h3>¿Para quién es el regalo?</h3>
-          <p class="hand">Lo que pregunte la gente se responde el martes, y da ideas reales para el carrusel de la semana 2.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="day">
-    <div class="when"><span class="lbl">Lunes</span><b>12/10</b><span class="cd lbl">Reel</span></div>
-    <div class="pieces">
-      <div class="piece">
-        <div class="media"><img class="story-img" src="png/r2.png" alt="Portada de reel: lo que nos dicen antes del 18"></div>
-        <div>
-          <p class="fmt lbl">Reel · la vida en el local</p>
-          <h3>Lo que nos dicen antes del 18</h3>
-          <p class="cap">Frases reales del mostrador, edición Día de la Madre 😅
-¿Cuál dijiste vos? Etiquetá a tu hermano/a.</p>
-          <p class="hand">Mismo espíritu que el del Día del Estudiante. <b>Vos anotás</b> 4 o 5 frases que escuchás esta semana y filmás planos del local. <b>El bot</b> pone los textos.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="sec-h"><h2>Semana 2 · El 18</h2><p>Del 14 al 20: regalos por presupuesto, envolviendo regalos, el último día y el saludo del domingo.</p></div>
-  <div class="strip">
-    <img src="png/h5.png" alt="Historia: hoy abrimos hasta las 17">
-    <img src="png/o1.png" alt="Posteo: feliz día, mamás">
-  </div>
-  <p class="hand" style="margin-top:18px">Después: agendas 2027 comparadas, quiénes somos (la familia y los octágonos), Halloween y el <b>sorteo de Filgo del 1/11</b> en vivo desde el local.</p>
-</section>
-
-<section>
-  <div class="sec-h"><h2>Destacadas nuevas</h2><p>Todas iguales, con los colores del osito. Hoy hay 3 y no se parecen entre sí.</p></div>
-  <div class="strip hl">
-    <img src="png/d1.png" alt="Destacada: lo nuevo">
-    <img src="png/d2.png" alt="Destacada: regalos">
-    <img src="png/d3.png" alt="Destacada: listas">
-    <img src="png/d4.png" alt="Destacada: envíos">
-    <img src="png/d5.png" alt="Destacada: reseñas">
-    <img src="png/d6.png" alt="Destacada: cómo llegar">
-  </div>
-</section>
-
-<section>
-  <div class="sec-h"><h2>Cómo funcionaría</h2><p>El bot queda instalado en tu compu, con tu cuenta. Vos no diseñás ni escribís: elegís.</p></div>
-  <div class="steps">
-    <div class="step"><span class="lbl">Vos</span><h3>Mandás material</h3><p>Fotos con el producto en la mano, clips del local, lo que llegó.</p></div>
-    <div class="step"><span class="lbl">El bot</span><h3>Arma la semana</h3><p>Plan, placas, reels editados y textos, con tu voz y tus colores.</p></div>
-    <div class="step"><span class="lbl">Vos</span><h3>Aprobás</h3><p>Desde el celular. Lo que no te gusta, se cambia o se saca.</p></div>
-    <div class="step"><span class="lbl">El bot</span><h3>Publica</h3><p>Posteos, carruseles, reels e historias, a la hora programada.</p></div>
-  </div>
-  <p class="limits">Lo que sigue siendo a mano: los stickers de las historias (encuesta, preguntas, cuenta regresiva), la música de los reels y filmar los clips.</p>
-</section>
+  </section>
+</main>
 
 <footer>
-  <div class="holo"></div>
-  <p>Propuesta de Tranquera Digital para Les Enfants Librería Boutique. Contenido de muestra: no fue publicado.</p>
+  <div class="wrap">
+    <p>Plan armado por el bot de redes de Les Enfants con Tranquera Digital. Precios, horarios y datos marcados "a confirmar" se publican recién cuando los confirmes.</p>
+    <p><a href="octubre/">Ver la propuesta anterior (octubre)</a></p>
+  </div>
 </footer>
-
-</div>
 </body>
 </html>
